@@ -1,0 +1,29 @@
+{
+  "stats": {
+    "totalRevenue": 54230,
+    "totalUsers": 1245,
+    "orders": 342,
+    "conversionRate": 4.3
+  },
+  "revenue": [
+    { "month": "Jan", "value": 4000 },
+    { "month": "Feb", "value": 5000 },
+    { "month": "Mar", "value": 6000 },
+    { "month": "Apr", "value": 7000 },
+    { "month": "May", "value": 8000 },
+    { "month": "Jun", "value": 9000 }
+  ],
+  "orders": [
+    { "month": "Jan", "value": 30 },
+    { "month": "Feb", "value": 40 },
+    { "month": "Mar", "value": 35 },
+    { "month": "Apr", "value": 50 },
+    { "month": "May", "value": 45 },
+    { "month": "Jun", "value": 60 }
+  ],
+  "users": [
+    { "type": "Free", "value": 800 },
+    { "type": "Premium", "value": 300 },
+    { "type": "Enterprise", "value": 145 }
+  ]
+}
