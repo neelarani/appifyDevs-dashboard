@@ -18,10 +18,11 @@ export default function Sidebar() {
       >
         <button
           onClick={() => setIsCollapsed(!isCollapsed)}
-          className="self-end mb-6 text-foreground hover:text-green-500"
+          className="self-end mb-6 mt-3 text-foreground hover:text-green-500"
         >
           {isCollapsed ? <FaAngleDoubleRight /> : <FaAngleDoubleLeft />}
         </button>
+
         <ul className="flex-1 space-y-4">
           {links.map((link) => {
             const Icon = link.icon;

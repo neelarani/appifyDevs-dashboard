@@ -22,7 +22,7 @@ export default function DashboardMobileSidebar({
         <div className="flex justify-end mb-6">
           <button
             onClick={() => setIsOpen(false)}
-            className="text-gray-600 hover:text-white"
+            className="text-red-500 hover:text-white"
           >
             <Cross size={24} />
           </button>
@@ -32,7 +32,7 @@ export default function DashboardMobileSidebar({
           {navItems.map((link) => (
             <li
               key={link.title}
-              className="p-3 rounded hover:bg-blue-600 cursor-pointer text-white font-medium"
+              className="p-3 rounded hover:bg-blue-600 cursor-pointer  font-medium"
             >
               {link.title}
             </li>
